@@ -14,8 +14,7 @@
   // ++$a; pre increment.
   // $a--; post decrement.
   // --$a; pre decrement.
+  // $a = true + 3;
   // echo $a;
 
-  $a = true + 3;
-  echo $a;
-?>
+  ?>
