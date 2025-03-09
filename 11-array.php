@@ -50,7 +50,7 @@
 
 
 <?php
-    //dimensional array array kkkk andrr dosre array bana skty hain ismein.
+    //Multidimensional array array kkkk andrr dosre array bana skty hain ismein.
 
     $colors  = array('red', 'blue', [2, 4,[1, 3, 5, 7], 6, 8, 10], 'green', 'black');
     $new = $colors[2][2][3];
