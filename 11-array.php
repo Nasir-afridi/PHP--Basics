@@ -28,6 +28,36 @@
     echo "</pre>";
 ?> -->
 
+
+
+
+
+<!-- <?php
+    //associative array isky andr key value hoonge isko access krny kk liye be key ka use hoga..
+
+    $students = [
+      'firstname' => 'muhammad',
+      'lastname' => 'Nasir',
+      'phoneNumber' => 03015202722,
+      'adress' => 'pakistan'
+    ];
+
+    echo "<pre>";
+    print_r($students);
+    echo "</pre>";
+?> -->
+
+
+
 <?php
-    
+    //dimensional array array kkkk andrr dosre array bana skty hain ismein.
+
+    $colors  = array('red', 'blue', [2, 4,[1, 3, 5, 7], 6, 8, 10], 'green', 'black');
+    $new = $colors[2][2][3];
+    echo $new;
+
+    echo "<pre>";
+    print_r($colors);
+    echo "</pre>";
+
 ?>
